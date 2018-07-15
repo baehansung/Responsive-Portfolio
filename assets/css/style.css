@@ -113,7 +113,7 @@ p {
     background-color: #666666;
     color: white;
     border-top: 6px solid #4aaaa5;
-    height: 70px;
+    height: 100px;
     position: relative;
     /* bottom: -100px; */
     /* margin: -90px; */
@@ -142,11 +142,11 @@ p {
     padding-top: 10px;
 }
 
-#images {
+/* #images {
     transform: rotate(270deg);
     display: flex; 
     justify-content:space-around;
-}
+} */
 
 #imgFCC {
     position: relative;
@@ -155,7 +155,7 @@ p {
 }
 
 #imgwords1 {
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     color: white;
     font-size: 30px;
     background-color: #4aaaa5;
@@ -207,6 +207,112 @@ p {
 }
 
 
+/* CSS for images on portfolio page */
+#portfolioImg {
+    height: 80%;
+    width: 80%;
+}
+
+
+#images {
+    margin-left: 18%;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#topImgs {
+    margin-top: 5%;
+}
+
+#middleImgs {
+    margin-top: 8%;
+}
+
+#imgText {
+    color: #4aaaa5;
+}
+
+.jqueryText {
+    margin-left: -84%;
+    background-color: slategrey;
+    width: 130%;
+    height: 50px;
+    margin-top: 148%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nodeText {
+    margin-left: 71%;
+    background-color: slategrey;
+    width: 135%;
+    height: 50px;
+    margin-top: 160%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.trainText {
+    margin-left: -101%;
+    background-color: slategrey;
+    width: 148%;
+    height: 50px;
+    margin-top: 126%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.movieText {
+    margin-left: 66%;
+    background-color: slategrey;
+    width: 128%;
+    height: 50px;
+    margin-top: 112%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+#trainImg {
+    width: 91%;
+    height: 180px;
+}
+
+#movieImg {
+    width: 89%;
+    height: 181px;
+}
+
 /* code below is for contact.html */
 
 #nameIn {
@@ -220,6 +326,21 @@ p {
 #input {
     margin-top: 25px;
 }
+
+
+#github {
+    font-size: 20px;
+    float: right;
+    margin-top: -1%;
+}
+
+#email {
+    font-size: 20px;
+    float: right;
+    clear: right;
+    margin-top: -5%;
+}
+
 
 @media screen and (max-width: 980px) {
     #links {
