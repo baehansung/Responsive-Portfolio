@@ -250,6 +250,14 @@ p {
     transform: translate(-50%, -50%);
 }
 
+.topTxt {
+    font-size: 65%;
+    float: right;
+    clear: right;
+    position: relative;
+    top: -35px;
+}
+
 #topImgs {
     margin-top: 5%;
 }
@@ -263,31 +271,31 @@ p {
 }
 
 .jqueryText {
-    margin-left: -84%;
+    margin-left: -79%;
     background-color: slategrey;
-    width: 130%;
+    width: 127%;
     height: 50px;
-    margin-top: 148%;
+    margin-top: 123%;
     font-size: 25px;
     padding: 10px;
 }
 
 .nodeText {
-    margin-left: 71%;
+    margin-left: 67%;
     background-color: slategrey;
-    width: 135%;
+    width: 133%;
     height: 50px;
-    margin-top: 160%;
+    margin-top: 133%;
     font-size: 25px;
     padding: 10px;
 }
 
 .trainText {
-    margin-left: -101%;
+    margin-left: -93%;
     background-color: slategrey;
-    width: 148%;
+    width: 140%;
     height: 50px;
-    margin-top: 126%;
+    margin-top: 120%;
     font-size: 25px;
     padding: 10px;
 }
@@ -295,9 +303,9 @@ p {
 .movieText {
     margin-left: 66%;
     background-color: slategrey;
-    width: 128%;
+    width: 121%;
     height: 50px;
-    margin-top: 112%;
+    margin-top: 107%;
     font-size: 25px;
     padding: 10px;
 }

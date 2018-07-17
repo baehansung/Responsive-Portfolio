@@ -1,0 +1,461 @@
+/* MEDIA QUERY
+    portfolio.html
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Portfolio {
+        width: 350px;
+        height: 440px;
+        margin-left: 0px;
+        padding: 20px;
+
+    }
+
+    #prtfolio {
+        margin-top: -17px;
+        font-size: 25px;
+    }
+    
+    #links {
+        left: 15%;
+    }
+
+    .topTxt {
+        font-size: 45%;
+        top: -30px;
+        float: left;
+        clear: both;
+        position: static;
+    }
+
+    #calcImg {
+        width: 90px;
+        position: relative;
+        left: -25px;
+    }
+
+    .portfolioImg {
+        width: 90px;
+        position: relative;
+        left: 30px;
+        top: -10px
+    }
+
+    #trainImg {
+        position: relative;
+        left: -45px;
+        width: 130px;
+        height: 105px;
+    }
+
+    #movieImg {
+        position: relative;
+        left: 11px;
+        width: 130px;
+        height: 105px;
+    }
+
+    #middleImgs {
+        margin-top: 15%;
+    }
+
+    .jqueryText {
+        margin-left: -140px;
+        width: 130px;
+        height: 40px;
+        margin-top: 120px;
+        font-size: 16px;
+        padding: 4px;
+    }
+
+    .nodeText {
+        margin-left: 170px;
+        width: 130px;
+        height: 40px;
+        margin-top: 120px;
+        font-size: 16px;
+        padding: 7px;
+    }
+
+    .trainText {
+        height: 40px;
+        margin-top: 155px;
+        margin-left: -139px;
+        width: 130px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .movieText {
+        margin-left: 169px;
+        width: 130px;
+        height: 40px;
+        margin-top: 155px;
+        font-size: 16px;
+        padding: 4px;
+    }
+
+    #footer {
+        height: 60px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Portfolio {
+        width: 600px;
+        height: 650px;
+        position: relative;
+        left: -70px;
+    }
+
+    #links {
+        left: 60%;
+    }
+
+    #nameTop {
+        width: 208px;
+        height: 70px;
+        position: relative;
+        left: 20px;
+    }
+
+    #topbar {
+        margin-left: 2%;
+    }
+
+    .topTxt {
+        font-size: 44%;
+        top: -30px;
+    }
+
+    #calcImg {
+        width: 185px;
+        position: relative;
+        left: -20px;
+    }
+
+    .portfolioImg {
+        width: 185px;
+        position: relative;
+        left: 27px;
+        top: -20px
+    }
+
+    #trainImg {
+        position: relative;
+        left: -28px;
+        width: 200px;
+        height: 150px;
+    }
+
+    #movieImg {
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 20px;
+    }
+
+    .trainText {
+        margin-left: -192px;
+        width: 200px;
+        height: 40px;
+        margin-top: 225px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .jqueryText {
+        padding: 8px;
+        font-size: 20px;
+        width: 200px;
+        margin-left: -185px;
+        height: 40px;
+        margin-top: 195px;
+    }
+
+    .nodeText {
+        padding: 10px;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 195px;
+        margin-left: 275px;
+    }
+
+    .movieText {
+        margin-left: 265px;
+        width: 200px;
+        height: 40px;
+        margin-top: 225px;
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    #middleImgs {
+        margin-top: 10%;
+    }
+
+    #footer {
+        height: 75px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Portfolio {
+        width: 750px;
+        height: 810px;
+        position: relative;
+        left: -80px;
+    }
+
+    #nameTop {
+        position: relative;
+        left: 14%;
+    }
+
+    #topbar {
+        left: -10%;
+        position: relative;
+    }
+
+    .topTxt {
+        font-size: 50%;
+    }
+
+    #links {
+        position: relative;
+        left: 75%;
+    }
+
+    #trainImg {
+        width: 250px;
+        position: relative;
+        left: -70px;
+        height: 195px;
+    }
+
+    #movieImg {
+        width: 250px;
+        position: relative;
+        left: 29px;
+        height: 195px;
+    }
+
+    #calcImg {
+        width: 250px;
+        position: relative;
+        left: -70px;
+
+    }
+
+    .portfolioImg {
+        width: 250px;
+        position: relative;
+        left: 28px;
+        top: -20px;
+    }
+
+    .trainText {
+        margin-left: -285px;
+        width: 250px;
+        font-size: 28px;
+        margin-top: 275px;
+    }
+
+    .movieText {
+        width: 250px;
+        margin-left: 337px;
+        margin-top: 275px;
+        font-size: 28px;
+        padding: 2px;
+    }
+
+    .nodeText {
+        font-size: 28px;
+        width: 250px;
+        margin-top: 282px;
+        margin-left: 335px;
+    }
+
+    .jqueryText {
+        font-size: 28px;
+        width: 250px;
+        margin-left: -285px;
+        height: 50px;
+        margin-top: 282px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #links {
+        top: -50px;
+        left: 64%;
+    }
+
+    #topbar {
+        position: relative;
+        left: 2%;
+    }
+
+    .topTxt {
+        font-size: 55%;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    #nameTop {
+        position: relative;
+        left: 5%;
+        width: 240px;
+        height: 85px;
+    }
+    
+    .Portfolio {
+        width: 850px;
+        height: 795px;
+        left: -3%;
+    }
+
+    #footer {
+        height: 80px;
+    }
+
+    #trainImg {
+        width: 305px;
+        height: 180px;
+        position: relative;
+        left: -71px;
+    }
+
+    .portfolioImg {
+        position: relative;
+        left: 43px;
+        width: 255px;
+        top: -35px;
+    }
+
+    #movieImg {
+        width: 305px;
+        height: 181px;
+        position: relative;
+        left: 15px;
+    }
+
+    #calcImg {
+        position: relative;
+        left: -40px;
+        top: -20px;
+        width: 255px;
+    }
+    
+    .jqueryText {
+        margin-top: 255px;
+        width: 305px;
+        margin-left: -320px;
+    }
+
+    .nodeText {
+        width: 305px;
+        margin-top: 255px;
+        margin-left: 365px;
+    }
+
+    .trainText {
+        margin-left: -319px;
+        width: 305px;
+        margin-top: 270px;
+    }
+
+    .movieText {
+        margin-left: 370px;
+        width: 305px;
+        margin-top: 270px;
+    }
+
+    #middleImgs {
+        margin-top: 7%;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Portfolio {
+        width: 1150px;
+        height: 950px;
+        left: -55px;
+    }
+
+    #topbar {
+        left: -1%;
+    }
+
+    #nameTop {
+        left: 60px;
+        position: relative;
+    }
+
+    #links {
+        left: 75%;
+    }
+
+    .topTxt {
+        font-size: 65%;
+    }
+
+    #calcImg {
+        width: 325px;
+        left: -60px;
+    }
+
+    #trainImg {
+        width: 385px;
+        height: 225px;
+        left: -90px;
+    }
+
+    .portfolioImg {
+        width: 325px;
+        top: -30px;
+        left: 55px;
+    }
+
+    #movieImg {
+        width: 385px;
+        height: 225px;
+        left: 31px;
+    }
+
+    .trainText {
+        margin-left: -423px;
+        width: 385px;
+        margin-top: 320px;
+    }
+
+    .movieText {
+        margin-left: 485px;
+        width: 385px;
+        margin-top: 320px;
+    }
+
+    .jqueryText {
+        margin-left: -425px;
+        width: 385px;
+        margin-top: 355px;
+    }
+
+    .nodeText {
+        width: 385px;
+        margin-top: 355px;
+        margin-left: 485px;
+    }
+
+    #footer {
+        height: 100px;
+    }
+}

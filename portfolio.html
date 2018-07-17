@@ -6,6 +6,7 @@
     <title>Portfolio - Han Sung Bae</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
     <!-- <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 </head>
@@ -28,25 +29,31 @@
         <section class="Portfolio">
             <div id="prtfolio">
                 <h1>Portfolio</h1>
+                <h5 class="topTxt">**Click on the images to view the project**</h5>
+                <h5 class="topTxt">**Click on the text box to view the code on github**</h5>
             </div>
         
         <div class="container">
             <div class="row" id="topImgs">
                 <div class="column" id="images">
+                    <div id="calc-div">
                     <a href="https://baehansung.github.io/calculator-jquery-/">
-                        <img id="portfolioImg" src="assets/images/calculator.jpg" alt="calculator">
+                        <img class="portfolioImg" id="calcImg"src="assets/images/calculator.jpg" alt="calculator">
                     </a>
+
                     <a href="https://github.com/baehansung/calculator-jquery-">
                         <div class="centered">
                             <h2 id="imgText" class="jqueryText">jQuery Calculator</h2>
                         </div>
                     </a>
+                    </div>
                 </div>
 
                 <div class="column">
                     <a href="https://baehansung.github.io/Node-Calculator/">
-                        <img id="portfolioImg" src="assets/images/node.jpg" alt="node calculator">
+                        <img class="portfolioImg" src="assets/images/node.jpg" alt="node calculator">
                     </a>
+
                     <a href="https://github.com/baehansung/Node-Calculator">
                         <div class="centered">
                             <h2 id="imgText" class="nodeText">Node Calculator</h2>
@@ -60,19 +67,27 @@
         <div class="container">
                 <div class="row" id="middleImgs">
                     <div class="column" id="images">
-                    <a href="https://baehansung.github.io/Node-Calculator/">
+                    <a href="https://baehansung.github.io/Firebase-Train-Scheduler/">
                         <img id="trainImg" src="assets/images/train.jpg" alt="train">
                     </a>
+
+                    <a href="https://github.com/baehansung/Firebase-Train-Scheduler">
                         <div class="centered">
                             <h2 id="imgText" class="trainText">Train Scheduler</h2>
                         </div>
+                    </a>
                     </div>
     
                     <div class="column">
-                        <img id="movieImg" src="assets/images/movietheater.jpg" alt="movie theater">
-                        <div class="centered">
-                            <h2 id="imgText" class="movieText">Movie Showtimes</h2>
-                        </div>
+                        <a href="https://team3pennbootcamp.github.io/Project-1/">
+                            <img id="movieImg" src="assets/images/movietheater.jpg" alt="movie theater">
+                        </a>
+
+                        <a href="https://github.com/Team3PennBootcamp/Project-1">
+                            <div class="centered">
+                                <h2 id="imgText" class="movieText">Movie Showtimes</h2>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,80 @@
+/* MEDIA QUERY
+    contact.html
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #links {
+        left: 21%;
+    }
+    
+    .aboutMe {
+        width: 100%;
+    }
+
+    #footer {
+        height: 70px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Portfolio {
+        width: 500px;
+        height: 500px;
+    }
+
+    #links {
+        left: 50%;
+    }
+
+    .aboutMe {
+        width: 100%;
+    }
+
+    #nameTop {
+        width: 208px;
+        height: 70px;
+        position: relative;
+        left: -70px;
+    }
+
+    .topTxt {
+        font-size: 44%;
+        top: -30px;
+    }
+
+    #footer {
+        height: 85px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #links {
+        left: 68%;
+    }
+
+    .aboutMe {
+        position: relative;
+        left: 0%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #footer {
+        height: 80px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #links {
+        left: 75%;
+    }
+
+    #footer {
+        height: 100px;
+    }
+}
