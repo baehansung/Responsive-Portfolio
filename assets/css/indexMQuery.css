@@ -22,7 +22,7 @@
 
     #email {
         font-size: 50%;
-        margin-top: -43px;
+        margin-top: -8%;
     }
 
     #github {
@@ -80,18 +80,18 @@
     .aboutMe {
         position: relative;
         left: 0%;
-        height: 660px;
+        height: 760px;
     }
 
     #email {
-        margin-top: -7%;
+        margin-top: 1%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #email {
-        margin-top: -5%;
+        margin-top: 1%;
     }
 
     #footer {
@@ -106,7 +106,7 @@
     }
 
     #email {
-        margin-top: -4%;
+        margin-top: 1%;
     }
 
     #footer {
